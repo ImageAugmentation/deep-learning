@@ -1,0 +1,17 @@
+name: deep-learning
+channels:
+  - main
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.9.10
+  - pip:
+    - jupyter==1.0.0
+    - pillow==9.1.1
+    - numpy==1.23.0
+    - IPython==8.4.0
+    - scipy==1.8.1
+    - torch==1.11.0
+    - torchvision==0.12.0
+    - matplotlib==3.5.2
+    - pytorch-lightning==1.6.4
